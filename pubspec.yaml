@@ -9,14 +9,14 @@ environment:
   sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
-  logging: '>=0.11.3 <1.0.0'
-  console_log_handler: '>=1.1.0 <2.0.0'
-    # git: git@github.com:MikeMitterer/dart-console_log_handler.git
-    # path: /Volumes/Daten/DevLocal/DevDart/ConsoleLogHandler
+  logging: ^1.0.1
+  console_log_handler:
+    git:
+      url: https://github.com/AntonHomeniuk/dart-console_log_handler.git
 
-  validate: ^1.0.0
+  validate: ^1.7.0
 
-  intl: '>=0.15.0 <1.0.0'
+  intl: ^0.17.0
 
 dev_dependencies:
   test: any
